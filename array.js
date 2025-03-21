@@ -22,3 +22,18 @@ console.log(`nums from index 0 to 1 : ${numArr}`)
 numArr.forEach((num) => {
     console.log(num)
 })
+
+let str = "roronoa"
+console.log(`removed r and splitted the rest of the string : ${str.split("r")}`)
+console.log(`splitted string: ${str.split("")}`)
+
+let joinedArr = newArr.join()
+console.log(`joined arr : ${joinedArr}`)
+
+let reversedArr = newArr.reverse()
+console.log(`reversed array : ${reversedArr}`)
+
+//array destructuring 
+let [a,b] = [30, 40]
+console.log(b)
+
