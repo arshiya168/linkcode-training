@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub profile analyser</title>
+    <link rel="stylesheet" href="analyser.css">
+</head>
+<body>
+    <h1>GitHub Profile Analyser</h1>
+    
+    <div class="search-box">
+        <input type="text" id="username" placeholder="GitHub username">
+        <button onclick="loadProfile()"> Load Profile </button>
+    </div>
+    
+    <div id="profile"></div>
+    
+    <div id="repo-search" style="display:none;">
+        <input type="text" id="skill" placeholder="Filter by language">
+        <button onclick="filterRepos()">Search</button>
+    </div>
+    
+    <div id="repos"></div>
+    <script src="analyser.js"></script>
+</body>
+</html>
+   
+       
